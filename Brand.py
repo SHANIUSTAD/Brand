@@ -66,7 +66,7 @@ def clear():
     else:os.system("clear")
 
 def banner():
-    print("\n%s    _________ __     \n%s   / ____/ (_) /____  ║ %sCoded By %sDapunta %s& %sRizal\n%s  / __/ / / / __/ _ \ ║ %sFB %s: %sFacebook.com/Dapunta.Khurayra.X\n%s / /___/ / / /_/  __/ ║ %sFB %s: %sFacebook.com/AKUN.KERTASS\n%s/_____/_/_/\__/\___/  ║ %sGithub %s: %sGithub.com/Dapunta/elite\n"%(O,O,P,O,P,O,O,P,O,P,O,P,O,P,O,P,O,P))
+        print("\n%s    ######   #     #  #     # ######  #     #  #     #  ######      \n%s   / ########  ##     ## ##     ## ########  ##   ##   ##    ##  ##     ##  ║ %sCoded By %sDapunta %s& %sRizal\n%s  /    ###      ## ##   ##   ##  ##     ## ######### ##     ## ##     ## ║ %sFB %s: %sFacebook.com/Dapunta.Khurayra.X\n%s / ### # # # # # # # # ║ %sFB %s: %sFacebook.com/AKUN.KERTASS\n%s/ ##  # # # # # # ## ║ %sGithub %s: %sGithub.com/Dapunta/elite\n"%(O,O,P,O,P,O,O,P,O,P,O,P,O,P,O,P,O,P))
 
 def menu_log():
     os.system('rm -rf token.txt')
