@@ -66,8 +66,7 @@ def clear():
     else:os.system("clear")
 
 def banner():
-        print("\n%s    ######   #     #  #     # ######  #     #  #     #  ######      \n%s   / ########  ##     ## ##     ## ########  ##   ##   ##    ##  ##     ##  ║ %sCoded By %sDapunta %s& %sRizal\n%s  /    ###      ## ##   ##   ##  ##     ## ######### ##     ## ##     ## ║ %sFB %s: %sFacebook.com/Dapunta.Khurayra.X\n%s / ### # # # # # # # # ║ %sFB %s: %sFacebook.com/AKUN.KERTASS\n%s/ ##  # # # # # # ## ║ %sGithub %s: %sGithub.com/Dapunta/elite\n"%(O,O,P,O,P,O,O,P,O,P,O,P,O,P,O,P,O,P))
-
+        print('\x1b[1;37m   _   _  | \ | | |  \| | | . ` || |\  | |_| \_| \n\x1b[1;37m____  / __ \  | |  | | | |  | | | |__| |  \____/ \n\x1b[1;37m ____   / __ \  | |  | | | |  | | | |__| | \____/\n\x1b[1;37m   ____   |  _ \  | |_) | |  _ <  | |_) | |____/  \n\x1b[1;37m========================================================\n\x1b[1;37m                     AUTHOR: ZEESHAN ALTAF                  \n\x1b[1;37m                   FACEBOOK: ZEESHAN ALTAF\n\x1b[1;91m                      CYBER NEED !\n\x1b[1;37m=======================================================')
 def menu_log():
     os.system('rm -rf token.txt')
     clear()
